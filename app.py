@@ -12,7 +12,7 @@ with open('models/selected_features.txt', 'r') as f:
 
 numeric_cols = ['Age', 'RestingBP', 'Cholesterol', 'FastingBS', 'MaxHR', 'Oldpeak']
 
-st.title("💓 Heart Disease Prediction App (Local Model)")
+st.title("💓 Heart Disease Prediction App")
 
 # Numeric inputs
 age = st.number_input("Age", min_value=1, max_value=120)
